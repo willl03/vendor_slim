@@ -64,6 +64,12 @@ PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/etc/init.d/95color:system/etc/init.d/95color \
     vendor/slim/prebuilt/common/bin/sysinit:system/bin/sysinit
 
+PRODUCT_COPY_FILES += \
+    vendor/slim/prebuilt/common/media/audio/notifications/S_Flowers.ogg:system/media/audio/notifications/S_Flowers.ogg \
+    vendor/slim/prebuilt/common/media/audio/notifications/S_On_time.ogg:system/media/audio/notifications/S_On_time.ogg \
+    vendor/slim/prebuilt/common/media/audio/notifications/S_Whistle.ogg:system/media/audio/notifications/S_Whistle.ogg \
+    vendor/slim/prebuilt/common/media/audio/ringtones/Basic_bell.ogg:system/media/audio/ringtones/Basic_bell.ogg
+
 # Embed SuperUser
 SUPERUSER_EMBEDDED := true
 
