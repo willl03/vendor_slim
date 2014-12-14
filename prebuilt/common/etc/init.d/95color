@@ -1,0 +1,6 @@
+#!/system/bin/sh
+#sd Card boost
+
+echo "1" > /sys/class/lcd/panel/panel_colors
+sleep 60
+echo "1" > /sys/class/lcd/panel/panel_colors
