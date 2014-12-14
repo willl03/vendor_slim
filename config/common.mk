@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
     vendor/slim/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit \
+    vendor/slim/prebuilt/common/etc/init.d/99fstrim:system/etc/init.d/99fstrim \
     vendor/slim/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 # Embed SuperUser
